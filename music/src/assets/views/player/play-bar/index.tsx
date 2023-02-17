@@ -51,7 +51,7 @@ const PlayBar: React.FC<IPorps> = () => {
           </div>
         </BarOpertor>
       </div>
-      <div>audio</div>
+      <div>au</div>
     </PlayBarWrapper>
   )
 }
