@@ -51,10 +51,6 @@ const PlayBar: React.FC<IPorps> = () => {
           </div>
         </BarOpertor>
       </div>
-<<<<<<< HEAD
-      <div>au</div>
-=======
->>>>>>> a9686491a43613317276e1aaa49d6b701d8d645c
     </PlayBarWrapper>
   )
 }
