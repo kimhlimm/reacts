@@ -4,6 +4,7 @@ import AppFooter from "./assets/componet/app-footer"
 import AppHeader from "./assets/componet/app-header"
 import routes from "./assets/router"
 import "antd/dist/reset.css"
+import PlayBar from "./assets/views/player/play-bar"
 // import {
 //   useAppSelector,
 //   useAppDispatch,
@@ -31,6 +32,8 @@ function App() {
         <div className="main">{useRoutes(routes)}</div>
       </Suspense>
       <AppFooter />
+      {/* 播放器工具栏 */}
+      <PlayBar />
     </div>
   )
 }
