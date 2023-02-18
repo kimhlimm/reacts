@@ -15,7 +15,7 @@ const HotAnchor: React.FC<IPorps> = () => {
           return (
             <div className="item" key={item.picUrl}>
               <a className="image" href="#/">
-                <img src={item.picUrl} alt="123" />
+                <img src={item.picUrl} alt="" />
               </a>
               <div className="info">
                 <div className="name">{item.name}</div>
